@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60"
+   height="60"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="mrlister-logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="335.6446"
+     inkscape:cy="557.38301"
+     inkscape:document-units="mm"
+     inkscape:current-layer="text817"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       aria-label="Mr"
+       transform="scale(0.77207126,1.2952172)"
+       style="font-style:normal;font-weight:normal;font-size:187.06776428px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.67669392;opacity:1"
+       id="text817">
+      <g
+         id="g825"
+         transform="translate(10.731337,24.375865)">
+        <path
+           sodipodi:nodetypes="ccccccccccccccccccccccccccccccc"
+           inkscape:connector-curvature="0"
+           id="path819"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:187.06776428px;font-family:ChunkFive;-inkscape-font-specification:'ChunkFive, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:6.62855339"
+           d="m 175.5614,51.999945 v 15.990752 l 0.25983,9.514323 v 41.21871 -5.98471 l 67.17958,-1.3e-4 V 77.50502 H 228.73479 V 39.261551 h 14.26602 V -13.19507 L 144.71625,2.9530288 119.27542,105.66385 93.077792,4.2987033 H -5.2281337 V 39.261551 H 8.5191326 V 158.78568 H -5.4875161 v 34.96283 H 64.805112 V 158.78568 H 50.020315 V 51.999945 h 1.037529 c 8.68774,37.644708 7.390829,33.037208 8.68774,37.644708 L 85.555703,193.74851 H 139.76661 L 167.00177,88.317934 c 1.81567,-6.23369 5.44703,-24.121647 7.52208,-36.317989 z" />
+        <path
+           sodipodi:nodetypes="ccscccccccccccc"
+           inkscape:connector-curvature="0"
+           id="path821"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:187.06776428px;font-family:ChunkFive;-inkscape-font-specification:'ChunkFive, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:3.65625286"
+           d="m 243.00081,174.16431 h -7.15366 v -15.39825 c 0,-13.15581 7.29673,-16.59425 20.17331,-16.59425 v -25.8631 c -14.73653,0 -18.45644,5.08292 -22.17633,12.25882 l -4.2922,-9.56787 -53.65901,-2.4e-4 -3.1e-4,19.43471 14.76575,2.4e-4 v 35.72994 l -14.90882,-2.4e-4 v 19.5842 l 67.25127,2.4e-4 z" />
+      </g>
+    </g>
+  </g>
+</svg>
