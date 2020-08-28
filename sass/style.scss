@@ -54,6 +54,23 @@ a {
 @import "fontawesome/brands";
 @import "fontawesome/fontawesome";
 
+@keyframes flip-changer {
+  0%   { 
+  			top: 0;
+			@include prefix( text-shadow, 1px 2px 2px rgba( #000, .5 ), o moz webkit );
+  			@include prefix( transform, rotateY( 0deg ), o moz webkit );
+  		}
+  50%   { 
+  			top: -8px;
+			@include prefix( text-shadow, 1px 7px 7px rgba( #000, .5 ), o moz webkit );
+  		}
+  100% {
+  			top: 0;
+			@include prefix( text-shadow, 1px 2px 2px rgba( #000, .5 ), o moz webkit );
+  			@include prefix( transform, rotateY( 360deg ), o moz webkit );
+  		}
+}
+
 #page-wrap {
 	position: relative;
 	min-height: 100%;
@@ -128,7 +145,7 @@ a {
 				}
 
 				&.github-link:hover {
-					color: #24292e;
+					color: #939393;
 				}
 
 				&.wordpress-link:hover {
@@ -240,13 +257,6 @@ a {
 	opacity: 0;
 	background: rgba( #fafafa, .95 );
 	@include transition( all .35s ease-in-out );
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes marque {
-  0% { width: 0; }
-  50% { width: 75%; }
-  100% { width: 0; }
 }
 
 /* Standard syntax */
@@ -571,6 +581,7 @@ a {
 				width: 100%;
 				height: auto;
 				max-height: 225px;
+				object-fit: cover;
 				@include box-shadow( 0 1px 4px 0 rgba( #000, .7 ) );
 			}
 		}
@@ -585,14 +596,17 @@ a {
 
 			.skill {
 				position: relative;
-				display: grid;
+				display: inline-block;
 				padding: 8px;
+				margin: auto;
 
 				i {
-					text-align: center;
+					position: relative;
 					color: #aaa;
 					@include font-size( 4.5 );
+					@include prefix( transform, rotateY( 0deg ), o moz webkit );
 					@include prefix( text-shadow, 1px 2px 2px rgba( #000, .5 ), o moz webkit );
+					@include transition( all .3s ease-in-out );
 				}
 
 				.progress {
@@ -601,7 +615,100 @@ a {
 					@include transition( all .25s ease-in-out );
 
 					.progress-bar {
-						@include transition( all .25s ease-in-out );
+						@include transition( all .3s ease-in-out );
+					}
+				}
+
+				&:hover {
+
+					i {
+						animation-name: flip-changer;
+						animation-duration: .5s;
+						@include prefix( transform, rotateY( 360deg ), o moz webkit );
+					}
+				}
+
+				&.php-skill:hover {
+
+					i {
+						color: #8a93bd;
+					}
+				}
+
+				&.html5-skill:hover {
+
+					i {
+						color: #e54c21;
+					}
+				}
+
+				&.css3-skill:hover {
+
+					i {
+						color: #2299f8;
+					}
+				}
+
+				&.js-skill:hover {
+
+					i {
+						color: #f0db4f;
+					}
+				}
+
+				&.node-js-skill:hover {
+
+					i {
+						color: #679e63;
+					}
+				}
+
+				&.laravel-skill:hover {
+
+					i {
+						color: #f35045;
+					}
+				}
+
+				&.sass-skill:hover {
+
+					i {
+						color: #cd669a;
+					}
+				}
+
+				&.wordpress-skill:hover {
+
+					i {
+						color: #21759b;
+					}
+				}
+
+				&.gulp-skill:hover {
+
+					i {
+						color: #db4446;
+					}
+				}
+
+				&.bootstrap-skill:hover {
+
+					i {
+						color: #553a7d;
+					}
+				}
+
+				&.github-skill:hover {
+
+					i {
+						color: #171515;
+					}
+				}
+
+				&.adobe-skill:hover {
+
+					i {
+						color: #fb1900;
 					}
 				}
 			}
@@ -612,31 +719,19 @@ a {
 				grid-gap: 80px 15px;
 
 				.node-js-skill {
-
-					i {
-						margin-left: 120px;
-					}
+					margin-right: 0;
 				}
 				
 				.laravel-skill {
-
-					i {
-						margin-left: 40px;
-					}
+					margin-right: 40px;
 				}
 
 				.sass-skill {
-
-					i {
-						margin-right: 40px;
-					}
+					margin-left: 40px;
 				}
 
 				.wordpress-skill {
-
-					i {
-						margin-right: 120px;
-					}
+					margin-left: 0;
 				}
 			}
 		}

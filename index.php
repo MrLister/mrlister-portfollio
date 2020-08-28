@@ -277,14 +277,14 @@ $social_links = array(
 			</div>
 
 			<div class="card project-5">
-				<a href="https://wonkasoft.com/wonkasoft-instafeed/" target="_blank" class="project-img-link">
+				<a href="https://aperabags.com/instagram-feeds/" target="_blank" class="project-img-link">
 					<div class="card-header">
 					</div>
 				</a>
 				<div class="card-body">
 					<h6 class="project-title">Wonkasoft Instafeed WP Plugin</h6>
 					<div class="project-links">
-						<a href="https://wonkasoft.com/wonkasoft-instafeed/" target="_blank"><?php echo sprintf( "<i class='fa fa-%s'></i> %s", strtolower( $user_browser ), $user_browser ); ?></a><a href="https://github.com/Wonkasoft/wonkasoft-instafeed" target="_blank"><i class="fab fa-github"></i> GITHUB</a>
+						<a href="https://aperabags.com/instagram-feeds/" target="_blank"><?php echo sprintf( "<i class='fa fa-%s'></i> %s", strtolower( $user_browser ), $user_browser ); ?></a><a href="https://github.com/Wonkasoft/wonkasoft-instafeed" target="_blank"><i class="fab fa-github"></i> GITHUB</a>
 					</div>
 				</div>
 			</div>
