@@ -62,13 +62,44 @@ a {
   		}
   50%   { 
   			top: -8px;
-			@include prefix( text-shadow, 1px 7px 7px rgba( #000, .5 ), o moz webkit );
+			@include prefix( text-shadow, 1px 7px 9px rgba( #000, .5 ), o moz webkit );
   		}
   100% {
   			top: 0;
-			@include prefix( text-shadow, 1px 2px 2px rgba( #000, .5 ), o moz webkit );
+			@include prefix( text-shadow, 1px 2px 3px rgba( #000, .7 ), o moz webkit );
   			@include prefix( transform, rotateY( 360deg ), o moz webkit );
   		}
+}
+
+@keyframes character-bounce {
+  0%   { 
+  			height: 53px;
+  		}
+  10%   { 
+  			height: 48px;
+  		}
+  20%   { 
+  			height: 35px;
+  		}
+  30%   { 
+  			height: 25px;
+  		}
+  50%   { 
+  			height: 38px;
+  		}
+  60%   { 
+  			height: 0px;
+  		}
+  100% {
+  			height: 53px;
+  		}
+}
+
+/* Standard syntax */
+@keyframes marque {
+  0% { width: 0; }
+  50% { width: 75%; }
+  100% { width: 0; }
 }
 
 #page-wrap {
@@ -259,11 +290,15 @@ a {
 	@include transition( all .35s ease-in-out );
 }
 
-/* Standard syntax */
-@keyframes marque {
-  0% { width: 0; }
-  50% { width: 75%; }
-  100% { width: 0; }
+.character-bounce {
+	height: 53px;
+	display: inline-block;
+	vertical-align: text-top;
+	overflow: hidden;
+	animation-name: character-bounce;
+	animation-duration: 12s;
+	animation-iteration-count: 5;
+	@include transition( all .35s ease-in-out );
 }
 
 #main-content {
@@ -305,7 +340,7 @@ a {
 		.section-header {
 			position: relative;
 			align-self: end;
-			max-width: 800px;
+			max-width: 875px;
 
 			h1 {
 				display: grid;
@@ -348,7 +383,7 @@ a {
 		justify-content: center;
 
 		p {
-			max-width: 800px;
+			max-width: 875px;
 			padding: 15px;
 			text-align: center;
 		}

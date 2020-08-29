@@ -170,7 +170,7 @@ $social_links = array(
 	<section class="cta-section">
 		<header class="section-header">
 			<h1>
-				<span>Hello, <br /> I am a web developer Driven, Creative, and passionate! This is Rudy Lister</span>
+				<span>Hello, <br /> I am a web developer Driven, Creative, and <span class="character-bounce">passionate!</span> My name is Rudy Lister</span>
 			</h1>
 		</header>
 		<div class="content-wrap cta-content-wrap">
